@@ -1,0 +1,46 @@
+button {
+  border: none;
+  background-color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.citiesPicBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+.picCityRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+}
+
+.cityPic {
+  margin: 5px;
+  width: 30vw;
+  height: 19vw;
+  max-width: 250px;
+  max-height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel .slide {
+  background-color: white;
+}
+
+.carousel .slider-wrapper {
+  width: 66%;
+}
+
+.carousel .carousel-status {
+  right: unset;
+}
