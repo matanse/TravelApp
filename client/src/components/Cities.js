@@ -30,7 +30,11 @@ export default class Cities extends Component {
     return (
       <div style={{ textAlign: "center" }}>
         <h3>Popular MYtineraries</h3>
-        {this.state.loading ? (
+        {!this.state.loading ? (
+          <div style={{ textAlign: "center" }}>
+            <h1>Loading...</h1>
+          </div>
+        ) : (
           <Carousel>
             <div>
               <CitiesCarousel cities={this.divideCities(0, 3)} />
@@ -42,10 +46,6 @@ export default class Cities extends Component {
               <CitiesCarousel cities={this.divideCities(8, 11)} />
             </div>
           </Carousel>
-        ) : (
-          <div style={{ textAlign: "center" }}>
-            <h1>Loading...</h1>
-          </div>
         )}
       </div>
     );

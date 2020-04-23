@@ -1,8 +1,8 @@
 import React from "react";
-// import PicParis from "../img/Paris.jpg";
 
 export default function CitiesFirst(props) {
   const cities = props.cities;
+
   return (
     <div className="citiesPicBtn">
       <div className="picCityRow">
