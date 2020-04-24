@@ -1,7 +1,8 @@
 import React from "react";
 
-export default function CitiesThird(props) {
+export default function CitiesFirst(props) {
   const cities = props.cities;
+
   return (
     <div className="citiesPicBtn">
       <div className="picCityRow">
@@ -9,20 +10,20 @@ export default function CitiesThird(props) {
           <div
             className="cityPic"
             style={{
-              backgroundImage: `url(${cities[0].pic})`,
+              backgroundImage: `url(${cities[0].Img})`,
             }}
           >
-            <h2 style={{ backgroundColor: "white" }}>{cities[0].name}</h2>
+            <h2 style={{ backgroundColor: "white" }}>{cities[0].Name}</h2>
           </div>
         </button>
         <button>
           <div
             className="cityPic"
             style={{
-              backgroundImage: `url(${cities[1].pic})`,
+              backgroundImage: `url(${cities[1].Img})`,
             }}
           >
-            <h2 style={{ backgroundColor: "white" }}>{cities[1].name}</h2>
+            <h2 style={{ backgroundColor: "white" }}>{cities[1].Name}</h2>
           </div>
         </button>
       </div>
@@ -31,20 +32,20 @@ export default function CitiesThird(props) {
           <div
             className="cityPic"
             style={{
-              backgroundImage: `url(${cities[2].pic})`,
+              backgroundImage: `url(${cities[2].Img})`,
             }}
           >
-            <h2 style={{ backgroundColor: "white" }}>{cities[2].name}</h2>
+            <h2 style={{ backgroundColor: "white" }}>{cities[2].Name}</h2>
           </div>
         </button>
         <button>
           <div
             className="cityPic"
             style={{
-              backgroundImage: `url(${cities[3].pic})`,
+              backgroundImage: `url(${cities[3].Img})`,
             }}
           >
-            <h2 style={{ backgroundColor: "white" }}>{cities[3].name}</h2>
+            <h2 style={{ backgroundColor: "white" }}>{cities[3].Name}</h2>
           </div>
         </button>
       </div>
