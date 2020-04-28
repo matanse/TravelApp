@@ -22,14 +22,14 @@ router.post("/", (req, res) => {
     country: req.body.country,
     img: req.body.img,
   });
-  newCity
-    .save()
-    .then((city) => {
+  newCity.save((err, city) => {
+    console.log(city);
+    if (err) {
+      console.log(err);
+    } else {
       res.send(city);
-    })
-    .catch((err) => {
-      res.status(500).send("Server error");
-    });
+    }
+  });
 });
 
 module.exports = router;

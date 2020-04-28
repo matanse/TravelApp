@@ -27,7 +27,7 @@ export default class Cities extends Component {
   divideCities = (start, end) => {
     let list = [];
     for (let x = start; x <= end; x++) {
-      if (this.state.cities[x].Name.toUpperCase().includes(this.state.search)) {
+      if (this.state.cities[x].name.toUpperCase().includes(this.state.search)) {
         list = [...list, this.state.cities[x]];
       }
     }

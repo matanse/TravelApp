@@ -20,10 +20,10 @@ export default function CitiesFirst(props) {
             <div
               className="cityPic"
               style={{
-                backgroundImage: `url(${cities[0].Img})`,
+                backgroundImage: `url(${cities[0].img})`,
               }}
             >
-              <h2 style={{ backgroundColor: "white" }}>{cities[0].Name}</h2>
+              <h2 style={{ backgroundColor: "white" }}>{cities[0].name}</h2>
             </div>
           )}
         </button>
@@ -41,10 +41,10 @@ export default function CitiesFirst(props) {
             <div
               className="cityPic"
               style={{
-                backgroundImage: `url(${cities[1].Img})`,
+                backgroundImage: `url(${cities[1].img})`,
               }}
             >
-              <h2 style={{ backgroundColor: "white" }}>{cities[1].Name}</h2>
+              <h2 style={{ backgroundColor: "white" }}>{cities[1].name}</h2>
             </div>
           )}
         </button>
@@ -64,10 +64,10 @@ export default function CitiesFirst(props) {
             <div
               className="cityPic"
               style={{
-                backgroundImage: `url(${cities[2].Img})`,
+                backgroundImage: `url(${cities[2].img})`,
               }}
             >
-              <h2 style={{ backgroundColor: "white" }}>{cities[2].Name}</h2>
+              <h2 style={{ backgroundColor: "white" }}>{cities[2].name}</h2>
             </div>
           )}
         </button>
@@ -85,10 +85,10 @@ export default function CitiesFirst(props) {
             <div
               className="cityPic"
               style={{
-                backgroundImage: `url(${cities[3].Img})`,
+                backgroundImage: `url(${cities[3].img})`,
               }}
             >
-              <h2 style={{ backgroundColor: "white" }}>{cities[3].Name}</h2>
+              <h2 style={{ backgroundColor: "white" }}>{cities[3].name}</h2>
             </div>
           )}
         </button>
